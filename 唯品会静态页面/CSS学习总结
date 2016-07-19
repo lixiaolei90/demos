@@ -1,0 +1,8 @@
+1 CSS样式表的reset 
+  因为不同的浏览器对HTML的标签都有自己的默认样式，为了使网页在各浏览器中都呈现出与效果图一致的样子，
+  需要对标签设置相同的规则。
+2 CSS Sprites技术
+  页面上会有很多的零星背景图片，将它们整合到一张大图上，通过background-image、background-repeat、
+  background-position的组合对背景图片定位，将需要的小图片精确定位。
+  好处是减少网页的HTTP请求，提高网页性能。
+   
