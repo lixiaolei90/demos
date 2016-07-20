@@ -1,0 +1,249 @@
+.index h2 {
+    text-indent: -999em;
+    overflow: ;
+    background: url("../images/index_title.png") no-repeat;
+    height:35px;
+    margin: 10px 0;
+}
+.right {
+    width: 331px;
+}
+.right .ico {
+    background: url("../images/right_imgs.png") no-repeat;
+}
+.right .promise100 {
+    background-position: 200px -150px;
+}
+.right .tab {
+    margin-bottom: 13px;
+}
+.right .tab .tabHd {
+    background: url("../images/tab.gif") repeat-x 0 0;
+}
+.right .tab .tabHd li {
+    float: left;
+    width: 108px;
+    font-weight: bold;
+    text-align: center;
+}
+.right .tab .tabHd li.current {
+    background: #fcfafc;
+    position: relative;
+    bottom: 0;
+}
+.right .tab .tabHd li.cen {
+    border-left: 1px solid #edebee;
+    border-right: 1px solid #edebee;
+}
+.right .tab .tabContent {
+    display: none;
+}
+.right .tab .show {
+    display: block;
+}
+.right .tab .tabContent dl {
+    color: #666465;
+    border-bottom: 1px dotted #686669;
+    margin: 0 20px;
+    padding: 18px 15px 18px 70px;
+}
+.right .tab .tabContent .promise-1 {
+    background-position: 0 10px;
+    padding: 80px 90px 20px 20px;
+}
+.right .tab .tabContent .promise-2 {
+    background-position: -350px 0;
+}
+.right .tab .tabContent .promise-3 {
+    background-position: -350px -100px;
+}
+.right .tab .tabContent .promise-4 {
+    background-position: -350px -200px;
+    border-bottom: 0 none;
+}
+.right .tab .tabContent dt {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+}
+.right .comment {
+    margin-bottom: 13px;
+}
+.right .comment .title {
+    background-position: -400px -400px;
+    font-size: 16px;
+    color: #4d4d4d;
+    font-family:"黑体";
+    height: 30px;
+    line-height: 40px;
+    padding: 0 0 0 50px;
+}
+.right .comment .sinaTwitter {
+    background-position: 158px -187px;
+}
+.right .comment ul li {
+    border-bottom: 1px dotted #666;
+    padding:15px 0 18px 0;
+    margin:0 20px;
+}
+.right .comment ul li img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #d4d3d5;
+    padding: 1px;
+    float: left;
+}
+.right .comment ul li a {
+    font-weight:bold;
+}
+.right .comment ul li p {
+    margin: 0 0 0 75px;
+}
+.right .comment ul li p a {
+    display: block;
+}
+.right .comment ul li.noBorderBom {
+    border-bottom: 0 none;
+}
+.right .notice h4 {
+    text-align: center;
+    padding: 15px 0 12px;
+    font-size: 12px;
+}
+.right .notice .tabHd {
+    width: 300px;
+    height: 33px;
+    padding: 15px 0 0;
+    margin: 0 auto;
+    line-height: 18px;
+    background: url("../images/notice.png") no-repeat 0 0;
+    overflow: hidden;
+    color: #fff;
+    line-height: 16px;
+}
+.right .notice .tabHd li {
+    float: left;
+    width: 73px;
+    border-left: 1px solid #e581ad;
+    border-right:1px solid #f4a6c8;
+    text-align: center;
+}
+.right .notice .tabHd li.current {
+    border: 0 none;
+}
+.right .notice .tabContent {
+    display:none;
+    padding: 10px;
+}
+.right .notice .show {
+    display: block;
+}
+.right .notice .tabContent span {
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+.right .notice .tabContent span img {
+    display: block;
+    width: 98px;
+    height: 48px;
+    margin: 0 auto;
+}
+.right .notice .tabContent span a {
+    border;1px solid #fcfafd;
+    display: block;
+    width: 98px;
+    height: 48px;
+}
+.brand {
+    position: relative;
+}
+.brand a {
+    display: block;
+    border: 1px solid #e4e2e5;
+}
+.brand a:hover {
+    color: #fff;
+    border: 1px solid #dc5c95;
+}
+.brand a .summaryBg {
+    background: #fff;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    position: absolute;
+    left: 1px;
+}
+.brand a:hover .summaryBg {
+    background: #dc5c95;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.brand a .summary {
+    position: absolute;
+    left: 1px;
+    z-index: 2;
+    line-height: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.brand a .summary h3 {
+    font-weight:normal;
+    font-size: 12px;
+}
+.brand a .summary .intro {
+    background: url("../images/icoInfo.png") no-repeat right center;
+    float: right;
+    width:70px;
+    text-align: left;
+}
+.newest {
+    width: 670px;
+}
+.newest h2 {
+    background-position: 0 0;
+}
+.newest ul li {
+    width: 642px;
+    height: 182px;
+    margin-bottom: 13px;
+}
+.newest ul li a {
+    width: 640px;
+    height: 180px;
+}
+.newest ul li a .summaryBg, .newest ul li a .summary {
+    bottom: 1px;
+    height: 22px;
+}
+.newest ul li a .summary {
+    text-align: center;
+    width: 620px;
+}
+.newest ul li a .summaryBg {
+    width: 640px;
+}
+.newest ul li a .summary h3 {
+    float: left;
+    width: 200px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

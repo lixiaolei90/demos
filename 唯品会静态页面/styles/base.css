@@ -285,8 +285,100 @@ a:hover {
     border:0 none;
 }
 
-
-
+/* #ft CSS */
+#ft {
+    color: #999199;
+    padding:0 0 35px;
+}
+#ft .ico {
+    background: url("../images/ft_imgs.png") no-repeat;
+}
+#ft a {
+    color: #999199;
+}
+#ft a:hover {
+    color: #999199;
+    text-decoration: underline;
+}
+#ft .moreBrand {
+    background-position: 360px -240px;
+    background-color: #f3f1f4;
+    border: 1px solid #f0edf0;
+    height: 38px;
+    line-height:38px;
+    font-size: 14px;
+    text-align: center;
+    width: 999px;
+    margin: 0 auto;
+}
+#ft .bomNav-1 {
+    overflow: hidden;
+    padding: 30px 0 20px 0;
+}
+#ft .bomNav-1 .security {
+    background-position: -5px 5px;
+}
+#ft .bomNav-1 .shop {
+    background-position: -5px -28px;
+}
+#ft .bomNav-1 .buy {
+    background-position: -10px -55px;
+}
+#ft .bomNav-1 .send {
+    background-position: -10px -86px;
+}
+#ft .bomNav-1 .service {
+    background-position: -7px  -116px;
+}
+#ft .bomNav-1 .code {
+    background-position: -7px  -116px;
+}
+#ft .bomNav-1 .weChat {
+    background-position: -10px -175px;
+}
+#ft .bomNav-1 dl {
+    width: 140px;
+    height: 150px;
+}
+#ft .bomNav-1 dt {
+    color: #646464;
+    padding:0 0 0 30px;
+    height: 30px;
+    line-height: 30px;
+}
+#ft .bomNav-1 dd {
+    padding: 0 0 0 25px;
+    background: url("../images/ft_imgs.png") no-repeat 2px -202px;
+}
+#ft .bomNav-1 .noIco {
+    background: none;
+    padding: 0;
+    text-align: center;
+}
+#ft .bomNav-1 img {
+    display: block;
+    overflow: hidden;
+    margin: 3px auto;
+}
+#ft .bomNav-2 {
+    background: #d7237e;
+    height:33px;
+    line-height:33px;
+    color: #fff;
+    text-align: center;
+}
+#ft .bomNav-2 a {
+    color: #fff;
+    margin:0 10px;
+}
+#ft .copyRight {
+    text-align: center;
+    line-height:18px;
+    padding:10px 0 30px;
+}
+#ft .img a {
+    margin: 0 8px;
+}
 
 
 
