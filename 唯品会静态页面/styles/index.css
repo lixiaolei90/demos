@@ -227,8 +227,62 @@
     width: 200px;
     text-align: left;
 }
-
-
+.last {
+    overflow: hidden;
+}
+.last h2 {
+    background-position: 0 -50px;
+}
+.last ul {
+    width: 1032px;
+}
+.last ul li {
+    width: 312px;
+    height: 232px;
+    margin: 0 32px 0 0;
+}
+.last ul li a {
+    width: 310px;
+    height: 230px;
+}
+.last ul li a .summaryBg, .last ul li a .summary {
+    bottom: 1px;
+    height: 72px;
+}
+.last ul li a .summaryBg {
+    width: 310px;
+}
+.last ul li a .summary {
+    width: 290px;
+}
+.will {
+    overflow: hidden;
+}
+.will h2 {
+    background-position: 0 -100px;
+}
+.will ul {
+    width: 1032px;
+}
+.will ul li {
+    width: 312px;
+    height: 232px;
+    margin: 0 32px 0 0;
+}
+.will ul li a {
+    width: 310px;
+    height: 230px;
+}
+.will ul li a .summary, .will ul li a .summaryBg {
+    bottom: 1px;
+    height: 72px;
+}
+.will ul li a .summary {
+    width: 290px;
+}
+.will ul li a .summaryBg {
+    width: 310px;
+}
 
 
 
