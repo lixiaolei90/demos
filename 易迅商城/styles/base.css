@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*css reset*/
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
     margin: 0;
@@ -30,9 +31,7 @@ input:focus,textarea:focus {
 a {
     text-decoration: none;;
 }
-a:hover {
-    text-decoration: underline;
-}
+
 q:before,q:after {
     content: '';
 }
@@ -45,6 +44,10 @@ address, cite, dfn, optgroup, em, var {
 }
 legend {
     color: #000;
+}
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
 }
 .clear {
     clear: both;
@@ -159,9 +162,74 @@ body {
 	color: #fff;
 	line-height: 35px;
 }
+.header .hd_nav {
+	height: 35px;
+	background: #1369c0;
+}
+.header .hd_nav .dt {
+	width: 159px;
+	height: 35px;
+	padding-left: 39px;
+	line-height: 35px;
+	font-size: 15px;
+	color: #fff;
+	position: relative;
+}
+.header .hd_nav .dt a {
+	font-size: 15px;
+	color: #fff;
+}
+.header .hd_nav .dt s {
+	font: 400 15px/15px "宋体";
+	height: 7px;
+	width: 15px;
+	top: 14px;
+	right: 30px;
+	position: absolute;
+	overflow: hidden;
+}
+.header .hd_nav .dt i {
+	position: absolute;
+	top:-7px;
+	left: 0;
+}
+.header .hd_nav .nav li {
+	float: left;
+	width: 100px;
+	height: 35px;
+}
+.header .hd_nav .nav a {
+	line-height: 35px;
+	font: 14px;
+	color: #fff;
+	padding-left: 33px;
+	padding-top: 11px;
+}
 
-
-
+/*footer*/
+.footer {
+	background: #d4d4d4;
+}
+.footer .copyright {
+	font: 12px #000;
+	line-height: 24px;
+	text-align: center;
+	padding-top: 56px;
+}
+.footer .copyright a {
+	color: #000;
+}
+.footer .message {
+	text-align: center;
+	margin-top: 38px;
+	padding-bottom: 49px;
+}
+.footer .message li {
+	display: inline;
+	width: 128px;
+	height: 46px;
+	margin-right: 24px;
+}
 
 
 

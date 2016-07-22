@@ -1,0 +1,45 @@
+
+.hd_nav .dl {
+	width: 189px;
+	float: left;
+	z-index: 2;
+}
+.hd_nav .dd .items {
+	width: 189px;
+	height: 61px;
+    background: #4593fd;
+    border-top: 1px solid #5aa1fe;
+    border-bottom: 1px solid #3487f2;
+    font: 14px "宋体" #e6f1ff;
+    position: relative;
+}
+.hd_nav .dd .items h3 {
+	margin-top: 13px;
+	margin-left: 10px;
+}
+.hd_nav .dd .items p {
+	margin-bottom: 26px;
+}
+
+.hd_nav .dd .items h3>a {
+	color: #e6f1ff;
+	font-size: 14px;
+}
+.hd_nav .dd .items span {
+	color: #e6f1ff;
+	font-size: 12px;
+	right: 13px;
+	position: absolute;
+}
+.hd_nav .dd .items p>a {
+	font-size: 12px;
+	color: #c2d9f8;
+	margin-left: 10px;
+	padding-bottom: 13px;
+}
+.top_banner {
+	width: 811px;
+	height: 330px;
+	margin-top: 4px;
+	float: left;
+}
