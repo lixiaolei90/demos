@@ -1,45 +1,39 @@
-
-.hd_nav .dl {
-	width: 189px;
-	float: left;
-	z-index: 2;
+.hd_nav .items {
+	width: 161px;
+	height: 36px;
+	border: 1px solid #5aa1fe;
+	background: url(../images/arrow.png) no-repeat    173px 17px #4593fd;
+	padding: 13px;
 }
-.hd_nav .dd .items {
-	width: 189px;
-	height: 61px;
-    background: #4593fd;
-    border-top: 1px solid #5aa1fe;
-    border-bottom: 1px solid #3487f2;
-    font: 14px "宋体" #e6f1ff;
-    position: relative;
-}
-.hd_nav .dd .items h3 {
-	margin-top: 13px;
-	margin-left: 10px;
-}
-.hd_nav .dd .items p {
-	margin-bottom: 26px;
-}
-
-.hd_nav .dd .items h3>a {
-	color: #e6f1ff;
+.hd_nav .items dt {
 	font-size: 14px;
+	line-height: 18px;
 }
-.hd_nav .dd .items span {
-	color: #e6f1ff;
-	font-size: 12px;
-	right: 13px;
-	position: absolute;
+.hd_nav .items dt a {
+	
+	color: #fff;
 }
-.hd_nav .dd .items p>a {
+.hd_nav .items dt span {
+	font-size: 11px;
+	border-radius: 10px;
+	background: #106ac0;
+	padding: 3px;
+	margin-left: 12px;
+}
+.hd_nav .items dd a {
 	font-size: 12px;
 	color: #c2d9f8;
-	margin-left: 10px;
-	padding-bottom: 13px;
+}
+.body .w1000{
+	position: relative;
 }
 .top_banner {
 	width: 811px;
 	height: 330px;
-	margin-top: 4px;
-	float: left;
+	float: right;
+	position: absolute;
+	left: 189px;
+	top: 0;
+	
+
 }
