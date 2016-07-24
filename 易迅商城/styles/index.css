@@ -25,15 +25,66 @@
 	color: #c2d9f8;
 }
 .body .w1000{
-	position: relative;
+
 }
 .top_banner {
 	width: 811px;
-	height: 330px;
-	float: right;
+	height: 326px;
+	margin-left: 189px;
+	position: relative;
+}
+.top_banner img {
 	position: absolute;
-	left: 189px;
-	top: 0;
-	
-
+	top:0;
+	left:0;
+}
+.m_section {
+	width: 1000px;
+	height: 460px;
+	margin-top: 15px;
+}
+.section_hd {
+	width: 1000px;
+	height: 45px;
+}
+.section_hd .left {
+	width: 132px;
+	height: 45px;
+	background: url(../images/section.png) no-repeat left top ;
+	padding-left: 57px;
+	line-height:45px;
+	font-size: 23px;
+	font-weight: 500;
+}
+.section_hd .right {
+	font-size: 12px;
+	font-weight: 500;
+	margin-top:21px;
+	margin-right: 23px;
+}
+.section_shop {
+	width: 1000px;
+	height: 600px;
+	margin-top: 15px;
+}
+.section_shop .m_banner {
+	width: 190px;
+	height: 400px;
+}
+.m_list .up li {
+	width: 198px;
+	height: 280px;
+	border: 1px solid #e5e5e5;
+	border-left: none;
+	border-bottom: none;
+	float: left;
+	background: url(../images/list_up1.png) no-repeat  30px 45px;
+}
+.m_list .down li {
+	width: 198px;
+	height: 118px;
+	border: 1px solid #e5e5e5;
+	border-left:none;
+	float: left;
+	background: url(../images/list_down1.png) no-repeat 30px 20px;
 }
