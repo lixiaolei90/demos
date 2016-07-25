@@ -105,16 +105,14 @@ body {
 	background: #1d7ad9;
 }
 
-
-
 .header .hd_logo .logo {
 	height: 85px;
-	width: 112px;
-	background: url(../images/logo.png) no-repeat left center;
+	width: 132px;
+	background: url(../images/0.jpeg) no-repeat left center;
 	margin-left: 39px;
 }
 .header .hd_logo .search {
-	margin-left: 185px;
+	margin-left: 155px;
 	margin-top: 23px;
 }
 .header .hd_logo .search input {

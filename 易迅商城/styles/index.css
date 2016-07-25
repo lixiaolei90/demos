@@ -70,21 +70,95 @@
 .section_shop .m_banner {
 	width: 190px;
 	height: 400px;
+	position: relative;
 }
-.m_list .up li {
+.section_shop .m_banner .movespan {
+	position: absolute;
+
+	bottom: 15px;
+	left: 20px;
+}
+.section_shop .m_banner span {
+	display: inline-block;
+	cursor: pointer;
+	width: 20px;
+	height: 5px;
+	background-color: #fff;
+	margin-right: 5px;
+}
+.m_list1 .up li {
 	width: 198px;
-	height: 280px;
+	height: 60px;
 	border: 1px solid #e5e5e5;
 	border-left: none;
 	border-bottom: none;
 	float: left;
 	background: url(../images/list_up1.png) no-repeat  30px 45px;
+	padding-top:220px;
+	text-align: center;
+	font: 500 16px/24px "micorosoft yahei";
 }
-.m_list .down li {
-	width: 198px;
-	height: 118px;
+.m_list1 .up li a {
+	color: #000;
+}
+.m_list1 .up li a span {
+	color: #ff7300;
+	font-size: 14px;
+}
+
+.m_list1 .down li {
+	width: 96px;
+	height: 86px;
 	border: 1px solid #e5e5e5;
 	border-left:none;
 	float: left;
 	background: url(../images/list_down1.png) no-repeat 30px 20px;
+	padding-left: 102px;
+	padding-top: 32px;
+	font: 12px/18px "micorosoft yahei";
+	text-align: left;
+}
+.m_list1 .down li a {
+	color: #000;;;
+}
+.m_list1 .down li a span {
+	font-size: 16px;
+}
+.m_list2 .up li {
+	width: 198px;
+	height: 60px;
+	border: 1px solid #e5e5e5;
+	border-left: none;
+	border-bottom: none;
+	float: left;
+	background: url(../images/list_up2.png) no-repeat  30px 45px;
+	padding-top:220px;
+	text-align: center;
+	font: 500 16px/24px "micorosoft yahei";
+}
+.m_list2 .up li a {
+	color: #000;
+}
+.m_list2 .up li a span {
+	color: #ff7300;
+	font-size: 14px;
+}
+
+.m_list2 .down li {
+	width: 96px;
+	height: 86px;
+	border: 1px solid #e5e5e5;
+	border-left:none;
+	float: left;
+	background: url(../images/list_down2.png) no-repeat 30px 20px;
+	padding-left: 102px;
+	padding-top: 32px;
+	font: 12px/18px "micorosoft yahei";
+	text-align: left;
+}
+.m_list2 .down li a {
+	color: #000;;;
+}
+.m_list2 .down li a span {
+	font-size: 16px;
 }
