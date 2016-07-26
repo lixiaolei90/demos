@@ -1,0 +1,60 @@
+.hd_nav .dd {
+    width: 184px;
+    background-color: #f3f3f3;
+    border: 1px solid #d7d7d7;
+    margin-top: 17px;
+}
+.hd_nav .dd .dt_title {
+    width: 153px;
+    height: 34px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 14px;
+    color: #000;
+    line-height:34px;
+    padding-left: 31px;
+    font-weight: 500;
+}
+.hd_nav .dd .single {
+    width: 183px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.hd_nav .dd .single dt {
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 12px;
+    line-height:12px;
+    font-weight: 500;
+    text-align: center;
+}
+.hd_nav .dd .single dd {
+    display: inline-block;
+    padding-left:28px;
+    font-size: 12px;
+    line-height:12px;
+    padding-bottom:11px;
+}
+.hd_nav .dd .single a{
+    color: #000;
+}
+.body .w1000 {
+    position: relative;
+}
+.body .wr {
+    position: absolute;
+    top: 17px;
+    left: 189px;
+    width: 811px;
+    height: 1000px;
+}
+.body .wr .section_hd {
+    padding-left: 10px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.body .wr .section_hd a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
