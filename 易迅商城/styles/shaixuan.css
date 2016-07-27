@@ -1,0 +1,96 @@
+.hd_nav .dd {
+    width: 184px;
+    background-color: #f3f3f3;
+    border: 1px solid #d7d7d7;
+    margin-top: 17px;
+}
+.hd_nav .dd .dt_title {
+    width: 184px;
+    height: 34px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 14px;
+    color: #000;
+    line-height:34px;
+    text-align: center;
+    font-weight: 500;
+}
+.hd_nav .dd .single {
+    width: 183px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.hd_nav .dd .single dt {
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 12px;
+    line-height:12px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.hd_nav .dd .single dd {
+
+    padding-left:10px;
+    font-size: 12px;
+    line-height:12px;
+    padding-bottom:11px;
+}
+.hd_nav .dd .single a{
+    color: #555555;
+}
+.hd_nav .dd ul li {
+    width: 184px;
+    height: 80px;
+    position: relative;
+}
+.hd_nav .dd ul li img {
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+.hd_nav .dd ul li .info {
+    position: absolute;
+    top: 13px;
+    left: 85px;
+    line-height: 18px;
+}
+.hd_nav .dd ul li .info a {
+    color: #999;
+}
+.hd_nav .dd ul li .price {
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    color: #666;
+}
+.body .wr {
+    margin-left: 204px;
+    margin-top: 18px;
+}
+.body .top_list .mobile {
+
+}
+.body .top_list  dl {
+    border-bottom: 1px solid #d9d9d9;
+    width: 100%;
+    overflow: hidden;
+
+}
+.body .top_list dt {
+    
+    padding: 14px 10px 10px 50px;
+    line-height: 12px;
+    color: #999;
+    float: left;
+}
+.body .top_list  dd {
+
+    overflow: hidden;
+    line-height: 12px;
+
+}
+.body .top_list dd a {
+    padding: 14px 10px 10px 32px;
+    color: #1d7ad9;
+    float: left;
+    
+}

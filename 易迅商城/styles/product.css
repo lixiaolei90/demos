@@ -1,3 +1,4 @@
+
 .hd_nav .dd {
     width: 184px;
     background-color: #f3f3f3;
@@ -39,13 +40,14 @@
 }
 .body .w1000 {
     position: relative;
+    height: 1560px;
 }
 .body .wr {
     position: absolute;
     top: 17px;
     left: 189px;
     width: 811px;
-    height: 1000px;
+
 }
 .body .wr .section_hd {
     padding-left: 10px;
@@ -57,4 +59,36 @@
     font-size: 16px;
     font-weight: 500;
     color: #000;
+}
+.body .wr .list {
+    width: 100%;
+}
+.body .wr .list li {
+    width: 184px;
+    height: 270px;
+    float: left;
+    text-align: left;
+    padding-left: 18px;
+    line-height: 20px;
+}
+.body .wr .list .info a {
+    color: #000;
+    font-size: 12px;
+
+}
+.body .wr .list .price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.body .wr .list .price span {
+    color: #d4107e;
+}
+.body .wr .list .comment span {
+    float: left;
+}
+.body .wr .list .comment div {
+    float: left;
+    width: 80px;
+    height: 15px;
+    background: url(../images/star.png) no-repeat center bottom;
 }
