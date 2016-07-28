@@ -1,0 +1,27 @@
+.body {
+    background-color: #f0f0f0;
+}
+.body .m_header {
+    height: 52px;
+    line-height: 52px;
+}
+.body .m_header a {
+    color: #555;
+    margin-right: 6px;
+}
+.body .m_header .index {
+    font-weight: 500;
+}
+.body .m_top {
+    border:1px solid #ddd;
+    height: 589px;
+}
+.body .m_top .left {
+    text-align: center;
+    border-right: 1px solid #ddd;
+    width: 309px;
+    height: 589px;
+}
+.body .m_top .top1 {
+    margin: 17px 51px 18px 56px;
+}

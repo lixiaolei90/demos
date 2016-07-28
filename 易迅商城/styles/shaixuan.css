@@ -62,35 +62,161 @@
     left: 85px;
     color: #666;
 }
+/*产品参数选择*/
 .body .wr {
     margin-left: 204px;
     margin-top: 18px;
 }
-.body .top_list .mobile {
-
-}
-.body .top_list  dl {
+.body .top_list>div {
     border-bottom: 1px solid #d9d9d9;
-    width: 100%;
-    overflow: hidden;
-
-}
-.body .top_list dt {
-    
-    padding: 14px 10px 10px 50px;
+    padding: 7px 0;
     line-height: 12px;
+}
+
+.body .top_list dt {
+    width: 75px;
+    padding-right:30px;
+    line-height: 24px;
     color: #999;
     float: left;
+    text-align: right;
 }
 .body .top_list  dd {
 
-    overflow: hidden;
+    display: inline-block;
     line-height: 12px;
-
+}
+.body .top_list  .unlimit {
+    vertical-align: top;
+    background-color: #1d7ad9;
+    margin-right: 5px;
+}
+.body .top_list .unlimit a {
+    width: 30px;
+    color: white;
+    text-align: center;
+}
+.body .top_list  .list {
+    width:520px;
+    vertical-align: top;
+    margin-left:10px;
+}
+.body .top_list .more {
+    vertical-align: top;
+}
+.body .top_list .more a {
+    width: 30px;
 }
 .body .top_list dd a {
-    padding: 14px 10px 10px 32px;
+    padding: 0px 5px;
     color: #1d7ad9;
     float: left;
-    
+    width: 120px;
+    line-height:24px;
+}
+/*产品详细*/
+.body .main .m_head {
+    height: 31px;
+    width: 100%;
+    margin-top:14px;
+    background-color: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    line-height:31px;
+}
+.body .main .m_head .left {
+    margin-left:11px;
+}
+.body .main .m_head .left select {
+    margin-left: 6px;
+    outline: 1px solid #bfbfbf;
+    width: 60px;
+    color: #666;
+}
+.body .main .m_head .right {
+    margin-right: 85px;
+}
+.body .main .m_head .right span {
+    color: #999;
+    margin-left: 12px;
+}
+.body .main .m_head .right strong {
+    color: #d70054;
+}
+.body .m_body .list {
+    margin-left: 59px;
+    margin-top: 28px;
+}
+.body .m_body .list li {
+    margin-right: 45px;
+    margin-bottom: 38px;
+    width: 195px;
+    height: 323px;
+    float: left;
+}
+.body .m_body .list .img {
+    text-align: center;
+    margin-bottom: 33px;
+}
+.body .m_body .list .info {
+    text-align: left;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+.body .m_body .list .info a {
+    color: #333;
+    white-space:;
+}
+.body .m_body .list .price {
+    margin-bottom:12px;
+    font-size: 10px;
+}
+.body .m_body .list .price span {
+    color: #d70000;
+    padding-right: 9px;
+}
+.body .m_body .list .price a {
+    color: #1d7ad9;
+}
+.body .main .m_footer {
+    border-bottom:1px solid #d9d9d9;
+    margin-top: 23px;
+    margin-left: 59px;
+    height: 49px;
+    margin-bottom: 40px;
+}
+.body .main .m_footer li {
+    float: left;
+    display: inline;
+    font-size: 12px;
+    line-height:12px;
+    margin-right: 5px;
+}
+.body .main .m_footer li a {
+    border: 1px solid #ddd;
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+}
+.body .main .m_footer li a:hover {
+    background-color: #2266bb;
+}
+.body .main .m_footer li span {
+    margin-top:5px;
+    display: block;
+}
+.body .main .m_footer .goto {
+    margin-left: 11px;
+    color: #666;
+}
+.body .main .m_footer .goto strong {
+    display: inline-block;
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+}
+.body .main .m_footer .goto input {
+    display: inline-block;
+    background-color: #e8e8e8;
+    border:1px solid #c9c9c9;
+    padding: 6px 14px;
+    color: #666;
 }
