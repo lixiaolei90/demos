@@ -15,6 +15,7 @@
 .body .m_top {
     border:1px solid #ddd;
     height: 589px;
+    background: #fff;
 }
 .body .m_top .left {
     text-align: center;
@@ -24,4 +25,192 @@
 }
 .body .m_top .top1 {
     margin: 17px 51px 18px 56px;
+}
+.body .m_top .des {
+    float: left;
+    width: 688px;
+}
+.body .m_top .des .dt {
+    border: 1px solid red;
+    margin-top: 27px;
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.body .m_top .price {
+    border: 1px solid red;
+    margin-top: 18px;
+    margin-left: 25px;
+}
+.body .m_top .price dt {
+    display: inline-block;
+    color: #666;
+}
+.body .m_top .price dd {
+    display: inline-block;
+    font-size: 17px;
+    color: #d70000;
+    margin-left: 20px;
+}
+.body .m_top .pre {
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.body .m_top .pre dt {
+    display: inline-block;
+    color: #666;
+}
+.body .m_top .pre  dd {
+    display: inline-block;
+    color: #666;
+    padding-left:60px;
+    margin-left: 31px;
+    background: url(../images/trade.png) no-repeat left top;
+    padding-top: 5px;
+}
+.body .m_top .wrap {
+    margin-top:12px;
+    margin-left: 9px;
+    margin-right: 10px;
+    background: #f2f2f2;
+    overflow: hidden;
+
+}
+.body .m_top .wrap .address {
+    border: 1px solid red;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.body .m_top .wrap .address dt {
+    display: inline-block;
+    color: #666;
+}
+.body .m_top .wrap  .address dd {
+    display: inline-block;
+    color: #666;
+}
+.body .m_top  .address dd select {
+    border: 1px solid #ddd;
+    margin-left: 33px;
+    margin-right: 10px;
+    color: #666;
+}
+.body .m_top .color {
+    border: 1px solid red;
+    margin-top: 19px;
+    margin-left: 15px;
+    
+}
+.body .m_top .color dt {
+    display: inline-block;
+    color: #666;
+}
+.body .m_top .color dd {
+    display: inline-block;
+    margin-left: 12px;
+    color: #666;
+
+}
+.body .m_top .color dd span {
+    display: inline-block;
+    width: 82px;
+    height: 32px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 32px;
+    background: #fff;
+    margin-right: 10px;
+}
+.body .m_top .spec {
+    border: 1px solid red;
+    margin-top: 16px;
+    color: #666;
+
+}
+.body .m_top .spec dt {
+    display: inline-block;
+    margin-left: 15px;
+    float: left;
+    margin-top: 27px;
+}
+.body .m_top .spec dd {
+    display: inline-block;
+    margin-left: 15px;
+    overflow: hidden;
+    width: 550px;
+}
+.body .m_top .spec  dd span {
+    display: inline-block;
+    padding: 9px 7px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 8px;
+    background: #fff;
+}
+.body .m_top .num {
+    border: 1px solid red;
+    color: #666;
+}
+.body .m_top .num dt {
+    display: inline-block;
+    margin-right:37px;
+    margin-left: 15px;
+
+}
+.body .m_top .num dd {
+    display: inline-block;
+}
+.body .m_top .num input {
+    width: 50px;
+    height: 32px;
+    text-align: center;
+}
+.body .m_top .num .p_m {
+    display: inline-block;
+    width: 15px;
+    height: 32px;
+    border: 1px solid #ddd;
+    line-height:32px;
+    text-align: center;
+}
+.body .m_top .num .text {
+    margin-left: 12px;
+}
+.body .m_top .num strong {
+    color: #fc7700;
+}
+.body .m_top .selected {
+    border: 1px solid red;
+    margin-top: 24px;
+    margin-left: 28px;
+    color: #666;
+}
+.body .m_top .selected span {
+    margin-left: 12px;
+    color: #0479ca;
+}
+.body .m_top .buy {
+    border: 1px solid red;
+    margin-top: 33px;
+    margin-left: 84px;
+}
+.body .m_top .buy a {
+    display: inline-block;
+    width: 116px;
+    height: 33px;
+    background: #f88600 url(../images/car.png) no-repeat 30px 13px;
+    padding-left: 68px;
+    padding-top: 15px;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 80px;
+}
+.body .m_top .des p {
+    border: 1px solid red;
+    margin-top: 42px;
+    margin-left: 29px;
+    color: #999;
 }
