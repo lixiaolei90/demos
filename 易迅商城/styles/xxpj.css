@@ -1,4 +1,4 @@
-.body {
+body {
     background-color: #f0f0f0;
 }
 .body .m_header {
@@ -31,7 +31,6 @@
     width: 688px;
 }
 .body .m_top .des .dt {
-    border: 1px solid red;
     margin-top: 27px;
     margin-left: 25px;
     font-size: 16px;
@@ -39,7 +38,6 @@
     font-weight: 500;
 }
 .body .m_top .price {
-    border: 1px solid red;
     margin-top: 18px;
     margin-left: 25px;
 }
@@ -54,7 +52,6 @@
     margin-left: 20px;
 }
 .body .m_top .pre {
-    border: 1px solid red;
     margin-top: 20px;
     margin-left: 25px;
 }
@@ -79,9 +76,8 @@
 
 }
 .body .m_top .wrap .address {
-    border: 1px solid red;
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 24px;
 }
 .body .m_top .wrap .address dt {
     display: inline-block;
@@ -98,7 +94,6 @@
     color: #666;
 }
 .body .m_top .color {
-    border: 1px solid red;
     margin-top: 19px;
     margin-left: 15px;
     
@@ -124,7 +119,6 @@
     margin-right: 10px;
 }
 .body .m_top .spec {
-    border: 1px solid red;
     margin-top: 16px;
     color: #666;
 
@@ -151,13 +145,13 @@
     background: #fff;
 }
 .body .m_top .num {
-    border: 1px solid red;
     color: #666;
 }
 .body .m_top .num dt {
     display: inline-block;
     margin-right:37px;
     margin-left: 15px;
+    margin-bottom: 25px;
 
 }
 .body .m_top .num dd {
@@ -183,7 +177,6 @@
     color: #fc7700;
 }
 .body .m_top .selected {
-    border: 1px solid red;
     margin-top: 24px;
     margin-left: 28px;
     color: #666;
@@ -193,7 +186,6 @@
     color: #0479ca;
 }
 .body .m_top .buy {
-    border: 1px solid red;
     margin-top: 33px;
     margin-left: 84px;
 }
@@ -209,8 +201,239 @@
     margin-right: 80px;
 }
 .body .m_top .des p {
-    border: 1px solid red;
     margin-top: 42px;
     margin-left: 29px;
     color: #999;
+}
+.m_side .choice {
+    width: 189px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+.m_side .choice dt {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+.m_side .choice dd {
+    background-color: #fff;
+}
+.m_side .choice dd .img {
+    text-align: center;
+    padding-top: 18px;
+    margin-bottom: 15px;
+}
+.m_side .choice dd p {
+    line-height: 18px;
+    color: #999;
+    margin-bottom: 8px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.m_side .choice dd span {
+    color: #de0000;
+    margin-left: 22px;
+}
+.m_comment {
+    margin-left: 23px;
+    margin-top: 15px;
+}
+.m_comment .c_nav {
+    height: 40px;
+    border: 1px solid #ddd;
+}
+.m_comment .c_nav .info {
+    display: inline-block;
+    background: #fff url(../images/info.png) no-repeat 134px 14px;
+    width: 378px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+}
+.m_comment .c_nav .pe {
+    display: inline-block;
+    background: #0479ca url(../images/pe.png) no-repeat 134px 14px;
+    width: 402px;
+    height: 40px;
+    border-left:1px solid #ddd;
+    text-align: center;
+    line-height:40px;
+}
+.m_comment .scores {
+    height: 159px;
+    border: 1px solid red;
+    background-color: #fff;
+}
+.m_comment .scores h3 {
+    margin-top:12px;
+    margin-left:10px;
+    font-size: 14px;
+}
+.m_comment .scores_l {
+    display: inline-block;
+    margin-top: 36px;
+}
+.m_comment .scores_l span {
+    font-size: 17px;
+    color: #66667d;
+}
+.m_comment .scores_l span:first-child {
+    font-size: 38px;
+    color: #ff8f00;
+    margin-left: 8px;
+}
+.m_comment .scores_r {
+    display: inline-block;
+    border: 1px solid red;
+    position: relative;
+}
+.m_comment .scores_r span {
+    padding: 0 30px;
+    background: #bdbdbd;
+    float: left;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.m_comment .scores_r i {
+    position: absolute;
+    width: 27px;
+    height: 20px;
+    left: 470px;
+    top: -20px;
+    background: url(../images/4.7.png) no-repeat ;
+    color: #fff;
+    text-align: center;
+    line-height:20px;
+    font-size: 9px;
+}
+.m_comment .scores_r p {
+    margin-left:10px;
+}
+.m_comment .user_nav {
+    height: 32px;
+    background: #f2f2f2;
+    line-height: 32px;
+}
+.m_comment .user_nav li {
+    display: inline-block;
+    margin: 0 29px;
+    line-height: 25px;
+}
+.m_comment .user_nav .current {
+    border-bottom: 3px solid #317ee7;
+}
+.m_comment .user_nav li:hover {
+    border-bottom: 3px solid #317ee7;
+}
+.m_comment .user_nav .right {
+    position: relative;
+}
+.m_comment .user_nav  span {
+    width: 67px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding-left: 6px;
+    background: url(../images/arrow2.png) no-repeat 58px center;
+}
+.m_comment .user_nav i {
+    width: 28px;
+    height: 16px;
+    position: absolute;
+    background: url(../images/new.png) no-repeat;
+    top: -10px;
+    left: 115px;
+}
+.m_comment .user_comment {
+    border: 1px solid red;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.m_comment .user_comment .dt {
+    margin: 18px 70px 16px 40px;
+    border: 1px solid red;
+    display: inline-block;
+}
+.user_comment .dt p {
+    margin-top: 10px;
+    margin-left: 8px;
+    color: #a4a4b2;
+}
+.user_comment .dd {
+    display: inline-block;
+    border: 1px solid red;
+    height: 100px;
+    width: 610px;
+}
+.dd_nav {
+    width: 610px;
+    height: 12px;
+    line-height:12px;
+    margin-top: 26px;
+}
+.dd_nav .left {
+    width: 145px;
+    padding-left: 86px;
+    background: url(../images/star.png) no-repeat;
+}
+.dd_nav .right {
+    color: #ababab;
+    margin-right: 24px;
+    font-size: 10px;
+}
+.dd p {
+    color: #777;
+    margin-top: 20px;
+}
+.dd .dd_j {
+    margin-top: 20px;
+}
+.dd .dd_j span {
+    margin-right: 10px;
+    color: #085c9b;
+}
+.m_comment .c_footer {
+    border:1px solid red;
+    margin-top: 33px;
+    margin-left: 275px;
+    height: 23px;
+    margin-bottom: 35px;
+}
+.m_comment .c_footer li {
+    float: left;
+    display: inline;
+    font-size: 12px;
+    line-height:12px;
+    margin-right: 5px;
+}
+.m_comment .c_footer li a {
+    border: 1px solid #ddd;
+    display: block;
+    padding: 5px 7px;
+    color: #333;
+}
+.m_comment .c_footer li a:hover {
+    background-color: #2266bb;
+}
+.m_comment .c_footer li span {
+    margin-top:5px;
+    display: block;
+}
+.m_comment .c_footer .goto {
+    margin-left: 11px;
+    color: #666;
+}
+.m_comment .c_footer .goto strong {
+    display: inline-block;
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+}
+.m_counsel {
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
 }
