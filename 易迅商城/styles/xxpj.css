@@ -262,7 +262,6 @@ body {
 }
 .m_comment .scores {
     height: 159px;
-    border: 1px solid red;
     background-color: #fff;
 }
 .m_comment .scores h3 {
@@ -285,7 +284,6 @@ body {
 }
 .m_comment .scores_r {
     display: inline-block;
-    border: 1px solid red;
     position: relative;
 }
 .m_comment .scores_r span {
@@ -347,14 +345,12 @@ body {
     left: 115px;
 }
 .m_comment .user_comment {
-    border: 1px solid red;
     overflow: hidden;
     background-color: #fff;
 
 }
 .m_comment .user_comment .dt {
     margin: 18px 70px 16px 40px;
-    border: 1px solid red;
     display: inline-block;
 }
 .user_comment .dt p {
@@ -364,7 +360,6 @@ body {
 }
 .user_comment .dd {
     display: inline-block;
-    border: 1px solid red;
     height: 100px;
     width: 610px;
 }
@@ -396,11 +391,11 @@ body {
     color: #085c9b;
 }
 .m_comment .c_footer {
-    border:1px solid red;
-    margin-top: 33px;
-    margin-left: 275px;
+    padding-top: 33px;
+    padding-left: 275px;
     height: 23px;
-    margin-bottom: 35px;
+    padding-bottom: 35px;
+    background: #fff;
 }
 .m_comment .c_footer li {
     float: left;
@@ -432,8 +427,114 @@ body {
     border: 1px solid #ddd;
 }
 .m_counsel {
-    border: 1px solid red;
-    width: 300px;
-    height: 200px;
+    width: 784px;
     background-color: #fff;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+.m_counsel .top {
+    width: 784px;
+    height: 32px;
+    line-height:32px;
+    border-bottom: 1px solid #0688ba;
+    color: #076ebb;
+}
+.m_counsel .top .left {
+    width: 130px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid #0688ba;
+    border-bottom: none;
+}
+.m_counsel .top .right a {
+    color: #076ebb;
+    margin-right: 26px;
+}
+.m_counsel .info {
+    padding: 12px 20px;
+    background: #f3f3f3;
+    margin-left: 21px;
+    margin-top: 9px;
+}
+.user_counsel {
+    height: 143px;
+    background-color: #fff;
+}
+.user_counsel dt {
+    text-align: center;
+    padding: 22px 34px 42px 51px;
+    display: inline-block;
+}
+.user_counsel dt p {
+    color: #777;
+    margin-top: 8px;
+}
+.user_counsel dd {
+    display: inline-block;
+    width: 606px;
+}
+.user_counsel dd .head {
+    height: 12px;
+    margin-top: 25px;
+}
+.user_counsel .head .left {
+    font-weight: 500;
+}
+.user_counsel .head .right span {
+    margin-right:12px;
+    color: #ababab;
+}
+.user_counsel dd p {
+    margin-top: 14px;
+    color: #777;
+}
+.user_counsel dd p span {
+    display: block;
+    padding:22px 0 ;
+    background-color: #f1f1f1;
+}
+.m_counsel .c_footer {
+    padding-top: 28px;
+    padding-left: 463px;
+    height: 23px;
+    padding-bottom: 35px;
+    background: #fff;
+}
+.m_counsel .c_footer li {
+    float: left;
+    display: inline;
+    font-size: 12px;
+    line-height:12px;
+    margin-right: 5px;
+}
+.m_counsel .c_footer li.current a {
+    background: #e9e9e9;
+    color: #d41079;
+}
+.m_counsel .c_footer li a {
+    border: 1px solid #ddd;
+    display: block;
+    padding: 5px 7px;
+    color: #333;
+}
+.m_counsel .c_footer li a:hover {
+    background-color: #2266bb;
+}
+.m_counsel .c_footer li span {
+    margin-top:5px;
+    display: block;
+}
+.m_counsel .c_footer .goto {
+    margin-left: 11px;
+    color: #666;
+    height: 24px;
+    line-height:24px;
+}
+.m_counsel .c_footer .goto input {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #d3d3d3;
+}
+body>.footer {
+    margin-top: 30px;
 }
