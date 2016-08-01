@@ -245,21 +245,65 @@ body {
 }
 .m_comment .c_nav .info {
     display: inline-block;
-    background: #fff url(../images/info.png) no-repeat 134px 14px;
+    background: #0479ca url(../images/info1.png) no-repeat 134px 14px;
     width: 378px;
     height: 40px;
     text-align: center;
     line-height:40px;
+    cursor: pointer;
+    color: #fff;
 }
 .m_comment .c_nav .pe {
     display: inline-block;
-    background: #0479ca url(../images/pe.png) no-repeat 134px 14px;
+    background: #f0f0f0 url(../images/pe1.png) no-repeat 134px 14px;
     width: 402px;
     height: 40px;
     border-left:1px solid #ddd;
     text-align: center;
     line-height:40px;
+    cursor: pointer;
 }
+.m_comment .p_info {
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 784px;
+}
+.m_comment .p_info-banner {
+    margin-left: 135px;
+    margin-top: 30px;
+}
+.m_comment .p_info dt  {
+    width: 749px;
+    border-bottom: 2px solid #d7d7d7;
+    margin-top: 50px;
+    margin-left: 19px;
+}
+.m_comment .p_info dt span {
+    font-size: 16px;
+    color: #2457a6;
+    border-bottom: 2px solid #2457a6;
+}
+.m_comment .p_info dd {
+    font-size: 14px;
+    line-height:22px;
+    margin-top: 18px;
+    margin-left: 18px;
+    color: #666;
+}
+.m_comment .p_info-pic img {
+    margin: 40px 22px 50px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
 .m_comment .scores {
     height: 159px;
     background-color: #fff;
