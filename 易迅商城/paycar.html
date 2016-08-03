@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>paycar</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/paycar.css">
+</head>
+<body>
+<div class="header">
+    <div class="hd_login">
+        <div class="w1000">
+            <div class="left">
+                <a href="javascripts:;" >收藏易迅</a>
+            </div>
+            <div class="right">
+                欢迎来到易迅商城！<a href="#">[登陆]</a><a href="#">[免费注册]</a>
+            </div>
+        </div>
+    </div>
+    <div class="hd_paycar">
+        <div class="w1000">
+            <div class="logo">
+                <a href="#"><img src="images/0.jpeg" alt=""></a>
+            </div>
+            <div class="progress">
+                <img src="images/progress.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body">
+    <div class="w1000">
+        <div class="address">
+            <div class="address_hd">收货信息</div>
+            <div class="address_location">
+                <span>选择地区:</span>
+                <select>
+                    <option value="loc1">深圳市 南山区</option>
+                    <option value="loc2">深圳市 宝安区</option>
+                    <option value="loc3">深圳市 福田区</option>
+                </select>
+            </div>
+            <div class="address_details">
+                <span>收获地址:</span>
+                <input type="text" placeholder="最多输入26个汉字" >
+            </div>
+            <div class="address_name">
+                <span>收&nbsp;&nbsp;货&nbsp;&nbsp;人:</span>
+                <input type="text" placeholder="最多10个汉字">
+            </div>
+            <div class="address_number">
+                <span class="mobile">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机:</span>
+                <input type="text" placeholder="如13812341234" style="width: 110px;" class="area">
+                <span class="tele">或固定电话:</span>
+                <input type="text" value="区号" style="width: 62px;" class="area">-
+                <input type="text" value="电话号码" style="width: 97px;">-
+                <input type="text" value="分机号(可选)" style="width: 97px;">
+            </div>
+            <button>确认收货地址</button>
+        </div>
+        <div class="pay">
+            <div class="pay_hd">支付方式</div>
+            <div class="pay_weixin">
+                <input type="radio" id="weixin"><label for="weixin"> 微信支付</label>
+                <span>用微信扫一扫就能支付!</span>
+            </div>
+            <div class="pay_cash">
+                <input type="radio" id="cash"><label for="cash"> 货到付款</label>
+                <span>送货上门后再付款,使用现金或刷卡。</span>
+            </div>
+        </div>
+        <div class="rcpt">
+            <div class="rcpt_hd">发票信息</div>
+            <input type="radio" id="rcpt_y">
+            <label for="rcpt_y">需要发票</label>
+            <div class="rcpt_type">
+                <span>发票类型:</span>
+                <select>
+                    <option value="type1">商业零售发票</option>
+                    <option value="type2">图书发票</option>
+                    <option value="type3">数码产品发票</option>
+                </select>
+            </div>
+            <div class="rcpt_title">
+                <span>发票抬头:</span>
+                <select>
+                    <option value="title1">个人</option>
+                    <option value="title2">公司</option>
+                </select>
+                <input type="text" placeholder="名称">
+            </div>
+            <div class="rcpt_btn">
+                <button>保存</button>
+                <button>取消</button>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="lists_hd">
+                <h3>送货清单</h3>
+                <a href="#" class="right">返回购物车修改</a>
+            </div>
+            <div class="list_dt">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="w1000">
+        <div class="copyright">
+            <a href="#">易迅简介</a> |
+            <a href="#">易迅公告</a> |
+            <a href="#">招贤纳士</a> |
+            <a href="#">联系我们</a> |
+            客服热线：000－123－456 <br>
+            Copyright © 2006 - 2014 易迅版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局X分局备案编号:1234567890
+        </div>
+        <div class="message">
+            <ul>
+                <li><a href="#"><img src="images/message.png" alt=""></a></li>
+                <li><a href="#"><img src="images/message.png" alt=""></a></li>
+                <li><a href="#"><img src="images/message.png" alt=""></a></li>
+                <li><a href="#"><img src="images/message.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
