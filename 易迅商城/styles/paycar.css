@@ -198,3 +198,49 @@
     margin-right: 25px;
     cursor: pointer;
 }
+.lists .t_title td {
+    width: 130px;
+    height: 33px;
+    border: 1px solid #e6e6e6;
+}
+.lists .t_title .title {
+    padding-left: 30px;
+}
+.lists .t_num {
+    height: 42px;
+}
+.lists .t_num td {
+    border: 1px solid red;
+}
+.lists .t_num .w122 {
+    width: 122px;
+    text-align: center;
+}
+.lists .t_num .w350 {
+    width: 350px;
+}
+.lists .t_gift>td {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.lists_info {
+    border: 1px solid #e6e6e6;
+}
+.lists_info p {
+    display: inline-block;
+    color: #37f;
+    margin-left: 28px;
+    margin-top: 12px;
+}
+.lists_info input {
+    margin-left: 10px;
+    width: 250px;
+    padding: 5px;
+}
+.lists_info .info_sorry {
+    margin-left: 28px;
+    margin-top: 32px;
+    padding-left: 22px;
+    background: url(../images/info_sorry.png) no-repeat left;
+    color: #e00;
+}

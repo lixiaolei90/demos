@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70887460-424b-4fa0-ad69-a8bb785e4b4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paycar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/paycar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shaixuan.html" afterPath="$PROJECT_DIR$/shaixuan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/base.css" afterPath="$PROJECT_DIR$/styles/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xxpj.html" afterPath="$PROJECT_DIR$/xxpj.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paycar.html" afterPath="$PROJECT_DIR$/paycar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/paycar.css" afterPath="$PROJECT_DIR$/styles/paycar.css" />
     </list>
     <ignored path="易迅商城.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="paycar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="paycar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paycar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+            <state relative-caret-position="503">
+              <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -51,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paycar.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="paycar.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/paycar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="198" column="19" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="19" />
+            <state relative-caret-position="503">
+              <caret line="243" column="60" selection-start-line="243" selection-start-column="60" selection-end-line="243" selection-end-column="60" />
               <folding>
                 <element signature="e#594#697#0" expanded="false" />
               </folding>
@@ -88,8 +82,8 @@
         <option value="$PROJECT_DIR$/product.html" />
         <option value="$PROJECT_DIR$/shaixuan.html" />
         <option value="$PROJECT_DIR$/xxpj.html" />
-        <option value="$PROJECT_DIR$/styles/paycar.css" />
         <option value="$PROJECT_DIR$/paycar.html" />
+        <option value="$PROJECT_DIR$/styles/paycar.css" />
       </list>
     </option>
   </component>
@@ -254,12 +248,12 @@
       <workItem from="1469772606502" duration="29384000" />
       <workItem from="1469949723037" duration="6021000" />
       <workItem from="1470009657144" duration="7188000" />
-      <workItem from="1470126997071" duration="14337000" />
+      <workItem from="1470126997071" duration="19442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115945000" />
+    <option name="totallyTimeSpent" value="121050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1279" height="709" extended-state="0" />
@@ -698,20 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/paycar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="198" column="19" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="19" />
-          <folding>
-            <element signature="e#594#697#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paycar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+        <state relative-caret-position="503">
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -723,6 +707,16 @@
             <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/paycar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="243" column="60" selection-start-line="243" selection-start-column="60" selection-end-line="243" selection-end-column="60" />
+          <folding>
+            <element signature="e#594#697#0" expanded="false" />
           </folding>
         </state>
       </provider>
