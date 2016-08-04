@@ -209,9 +209,6 @@
 .lists .t_num {
     height: 42px;
 }
-.lists .t_num td {
-    border: 1px solid red;
-}
 .lists .t_num .w122 {
     width: 122px;
     text-align: center;
@@ -225,6 +222,7 @@
 }
 .lists_info {
     border: 1px solid #e6e6e6;
+    border-bottom: none;
 }
 .lists_info p {
     display: inline-block;
@@ -243,4 +241,22 @@
     padding-left: 22px;
     background: url(../images/info_sorry.png) no-repeat left;
     color: #e00;
+}
+.lists_wrong {
+    margin-left: 28px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.lists_wrong dt {
+    float: left;
+    margin-bottom: 12px;
+}
+.lists_wrong dd {
+    margin-left: 90px;
+}
+.lists_wrong dd p {
+    margin-bottom: 9px;
+}
+.lists_wrong dd span {
+    color: #d70000;
 }
