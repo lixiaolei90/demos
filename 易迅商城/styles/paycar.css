@@ -260,3 +260,35 @@
 .lists_wrong dd span {
     color: #d70000;
 }
+/*settle*/
+.body .settle {
+    margin-top: 20px;
+    margin-bottom: 28px;
+    border: 1px solid #ccc;
+}
+.settle_hd {
+    padding: 9px 10px;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+.settle_submit {
+    margin-top: 41px;
+    margin-left: 800px;
+    color: #929292;
+}
+.settle_submit span {
+    margin-left: 15px;
+    font-size: 23px;
+    color: #ee0000;
+}
+.settle_submit button {
+    margin-top: 16px;
+    margin-left: 9px;
+    padding: 8px 55px;
+    margin-bottom:28px;
+    font-size: 18px;
+    color: #fdeeee;
+    background: #e50007;
+    border: none;
+}
