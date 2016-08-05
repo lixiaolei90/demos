@@ -1,0 +1,136 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+.w460 {
+    width: 460px;
+    margin: 0 auto;
+}
+.w630 {
+    width: 630px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+body {
+    font: 12px "micorosoft yahei";
+}
+/*header*/
+.header .hd_login {
+    height: 30px;
+    background: #f7f7f7;
+}
+.header .hd_login .left a {
+    padding-left: 17px;
+    background: url(../images/yellow_star.png) no-repeat left center ;
+    line-height: 30px;
+    color: #666;
+}
+.header .hd_login .right {
+    margin-right: 21px;
+}
+.header .hd_login .right a {
+    line-height: 30px;
+    color: #666;
+}
+.hd_logo {
+    height: 85px;
+    background: #1d7ad9;
+}
+.w460 {
+    position: relative;
+}
+.hd_logo img {
+    margin-top: 25px;
+}
+.hd_logo span {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    left: 300px;
+    top: 30px;
+}
+/*body*/
+.body .w630 {
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+.main span {
+    display: inline-block;
+    width: 190px;
+    text-align: right;
+    font-size: 14px;
+    color: #999;
+}
+.main input {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 7px 5px;
+    width: 268px;
+    border: 1px solid #cccccc;
+}
+.main .name input {
+    margin-top: 65px;
+    background: url(../images/p71.png) no-repeat right;
+}
+.main .s_password input {
+    background: url(../images/p72.png) no-repeat right;
+}
+.main .c_password input {
+    background: url(../images/p72.png) no-repeat right;
+}
+.main .email input {
+    background: url(../images/p72.png) no-repeat right;
+}
+.main .confirm {
+    margin-top: 50px;
+}
+.main .confirm input {
+    margin-left: 200px;
+    margin-top: 0;
+    width: 10px;
+}
+.main button {
+    margin-left: 195px;
+    margin-top:32px;
+    margin-bottom: 54px;
+    width: 270px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    color: #606060;
+    background: url(../images/button.png) repeat-x;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
