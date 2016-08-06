@@ -4,8 +4,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     margin: 0;
     padding: 0;
 }
-
-fieldset, img,  {
+fieldset, img, input, button {
     border: none;
     padding: 0;
     margin: 0;
@@ -80,6 +79,9 @@ body {
 }
 .right {
 	float: right;
+}
+.hide {
+	display: none;
 }
 /*header*/
 .header .hd_login {
@@ -163,6 +165,9 @@ body {
 	height: 35px;
 	background: #1369c0;
 }
+.header .hd_nav .dl {
+	position: relative;
+}
 .header .hd_nav .dt {
 	width: 159px;
 	height: 35px;
@@ -202,7 +207,27 @@ body {
 	padding-left: 33px;
 	padding-top: 11px;
 }
-
+.header .hd_nav .listwrap {
+	position: absolute;
+	top: 0;
+	left: 189px;
+	border: 1px solid #ddd;
+}
+.listwrap dl {
+	margin-left: 19px;
+	border-bottom: 1px solid #ddd;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+.listwrap dl dt {
+	margin-right: 20px;
+	color: #4b88da;
+}
+.listwrap dd a {
+	margin-right: 13px;
+	line-height: 24px;
+}
+.listwrap
 /*footer*/
 .footer {
 	background: #d4d4d4;
