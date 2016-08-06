@@ -219,6 +219,7 @@ body {
 }
 #listwrap dl {
 	margin-left: 19px;
+	margin-right: 18px;
 	border-bottom: 1px solid #ddd;
 	padding-top:15px;
 	padding-bottom: 15px;
@@ -227,9 +228,14 @@ body {
 	display: inline-block;
 	margin-right: 20px;
 	color: #4b88da;
+	width: 70px;
+	vertical-align: top;
+	line-height:24px;
 }
 #listwrap dd {
 	display: inline-block;
+	width: 430px;
+	vertical-align: top;
 }
 #listwrap dd a {
 	margin-right: 13px;
