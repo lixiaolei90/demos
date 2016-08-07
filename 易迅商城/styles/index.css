@@ -69,12 +69,24 @@
 	width: 190px;
 	height: 400px;
 	position: relative;
+	overflow: hidden;
+}
+#b_list {
+	position: absolute;
+	width: 570px;
+	height: 400px;
+	z-index: 1;
+}
+#b_list img {
+	float: left;
+	width: 190px;
+	height: 400px;
 }
 .section_shop .m_banner .movespan {
 	position: absolute;
-
 	bottom: 15px;
 	left: 20px;
+	z-index: 2;
 }
 .section_shop .m_banner span {
 	display: inline-block;
@@ -83,6 +95,9 @@
 	height: 5px;
 	background-color: #fff;
 	margin-right: 5px;
+}
+#b_button .on {
+	background: red;
 }
 .m_list1 .up li {
 	width: 198px;

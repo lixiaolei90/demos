@@ -83,7 +83,9 @@ body {
 .hide {
 	display: none;
 }
-
+.bg_navlist {
+	background: #4593fd;
+}
 /*header*/
 .header .hd_login {
 	height: 30px;
@@ -221,8 +223,8 @@ body {
 	margin-left: 19px;
 	margin-right: 18px;
 	border-bottom: 1px solid #ddd;
-	padding-top:15px;
-	padding-bottom: 15px;
+	padding-top:9px;
+	padding-bottom: 9px;
 }
 #listwrap dl dt {
 	display: inline-block;
@@ -241,7 +243,17 @@ body {
 	margin-right: 13px;
 	line-height: 24px;
 }
-#listwrap
+#listwrap .buttons {
+	margin-top: 15px;
+	margin-left: 19px;
+}
+#listwrap button {
+	margin-right: 7px;
+	padding: 8px;
+	padding-right: 26px;
+	color: #fff;
+	background: #2785e6 url(../images/arrow.png) no-repeat 85px;
+}
 /*footer*/
 .footer {
 	background: #d4d4d4;

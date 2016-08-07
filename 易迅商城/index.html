@@ -188,11 +188,15 @@
 									<a href="#">平板电脑</a>
 								</dd>
 							</dl>
+							<div class="buttons">
+								<button>电脑整机频道</button>
+								<button>硬件外设频道</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="nav left">
-					<ul>
+					<ul id="navlist">
 						<li><a href="#">数码城</a></li>
 						<li><a href="#">天黑黑</a></li>
 						<li><a href="#">团购</a></li>
@@ -219,10 +223,16 @@
 					</div>
 				</div>
 				<div class="section_shop">
-					<div class="m_banner left">
-						<a href="#"><img src="images/m_banner1.png" alt=""></a>
-                        <div class="movespan">
-							<span></span><span></span><span></span>
+					<div class="m_banner left" id="b_container">
+						<div id="b_list" style="left: 0;">
+							<a href="#"><img src="images/m_banner1.png" alt=""></a>
+							<a href="#"><img src="images/m_banner3.png" alt=""></a>
+							<a href="#"><img src="images/m_banner4.png" alt=""></a>
+						</div>
+						<div class="movespan" id="b_button">
+							<span index="1" class="on"></span>
+							<span index="2"></span>
+							<span index="3"></span>
 						</div>
 					</div>
 					<div class="m_list1 left">

@@ -12,6 +12,18 @@ function addLoadEvent(func) {
         }
     }
 }
+function showNav() {
+    var list = document.getElementById("navlist");
+    var navs = list.getElementsByTagName("li");
+    for (var i=0; i<navs.length; i++) {
+        navs[i].onmouseover = function () {
+            this.setAttribute("class","bg_navlist");
+        }
+        navs[i].onmouseout = function () {
+            this.setAttribute("class","");
+        }
+    }
+}
 function showListwrap() {
     var list = document.getElementById("listwrap");
     var itemswrap = document.getElementById("itemswrap");
@@ -25,5 +37,32 @@ function showListwrap() {
         }
     }
 }
+function slideshow() {
+    var container = document.getElementById("b_container");
+    var list = document.getElementById("b_list");
+    var buttons = document.getElementById("b_button").getElementsByTagName("span");
+    var index = 1;
+    function animate(offset) {
+        var newLeft = parseInt(list.style.left);
+        if (newLeft > -190) {
+            list.style.left = -570 + "px";
+        }
+        if (newLeft < -570) {
+            list.style.left = -190 + "px";
+        }
+        debugger;
+        list.style.left = newLeft + offset + "px";
+    }
+    for (var i=0; i<buttons.length; i++) {
+        buttons[i].onclick = function () {
+           var myIndex = parseInt(this.getAttribute("index"));
+            var offset = -190*(myIndex-index);
+            animate(offset);
+            index = myIndex;
+        }
+    }
 
+}
+addLoadEvent(showNav);
 addLoadEvent(showListwrap);
+addLoadEvent(slideshow);
