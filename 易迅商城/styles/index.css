@@ -76,6 +76,7 @@
 	width: 570px;
 	height: 400px;
 	z-index: 1;
+	transition:left 2s;
 }
 #b_list img {
 	float: left;
@@ -96,8 +97,8 @@
 	background-color: #fff;
 	margin-right: 5px;
 }
-#b_button .on {
-	background: red;
+#b_button span.on {
+	background-color: red;
 }
 .m_list1 .up li {
 	width: 198px;

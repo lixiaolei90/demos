@@ -42,15 +42,24 @@ function slideshow() {
     var list = document.getElementById("b_list");
     var buttons = document.getElementById("b_button").getElementsByTagName("span");
     var index = 1;
+    function showButton() {
+        for (var i=0; i<buttons.length; i++) {
+            if (buttons[i].className == "on") {
+                buttons[i].className = "";
+                break;
+            }
+        }
+        buttons[index-1].className = "on";
+        debugger;
+    }
     function animate(offset) {
         var newLeft = parseInt(list.style.left);
-        if (newLeft > -190) {
-            list.style.left = -570 + "px";
-        }
-        if (newLeft < -570) {
-            list.style.left = -190 + "px";
-        }
-        debugger;
+        // if (newLeft > -190) {
+        //     list.style.left = -570 + "px";
+        // }
+        // if (newLeft < -570) {
+        //     list.style.left = -190 + "px";
+        // }
         list.style.left = newLeft + offset + "px";
     }
     for (var i=0; i<buttons.length; i++) {
@@ -59,6 +68,7 @@ function slideshow() {
             var offset = -190*(myIndex-index);
             animate(offset);
             index = myIndex;
+            showButton();
         }
     }
 
