@@ -44,6 +44,7 @@ body {
 .header .hd_login .right a {
     line-height: 30px;
     color: #666;
+    border: 2px solid #e81c73;
 }
 .hd_logo {
     height: 85px;

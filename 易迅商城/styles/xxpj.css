@@ -199,6 +199,7 @@ body {
     font-size: 18px;
     color: #fff;
     margin-right: 80px;
+    border: 2px solid #e81c73;
 }
 .body .m_top .des p {
     margin-top: 42px;
@@ -294,16 +295,6 @@ body {
     margin: 40px 22px 50px;
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
 .m_comment .scores {
     height: 159px;
     background-color: #fff;
