@@ -40,8 +40,11 @@ function showListwrap() {
 function slideshow() {
     var container = document.getElementById("b_container");
     var list = document.getElementById("b_list");
+    var pics = list.getElementsByTagName("a");
     var buttons = document.getElementById("b_button").getElementsByTagName("span");
     var index = 1;
+    var animated = false;
+    var timer = null;
     function showButton() {
         for (var i=0; i<buttons.length; i++) {
             if (buttons[i].className == "on") {
@@ -50,26 +53,59 @@ function slideshow() {
             }
         }
         buttons[index-1].className = "on";
-        debugger;
     }
     function animate(offset) {
-        var newLeft = parseInt(list.style.left);
+        var newLeft = parseInt(list.style.left) + offset;
         // if (newLeft > -190) {
         //     list.style.left = -570 + "px";
         // }
         // if (newLeft < -570) {
         //     list.style.left = -190 + "px";
         // }
-        list.style.left = newLeft + offset + "px";
+        var time = 700;
+        var interval = 10;
+        var speed = offset/(time/interval);
+        animated = true;
+        function go() {
+            if ((speed < 0 && parseInt(list.style.left) > newLeft) || (speed > 0 && parseInt(list.style.left) < newLeft)){
+                list.style.left = parseInt(list.style.left) + speed + "px";
+                setTimeout(go, interval);
+            }else {
+                animated = false;
+                list.style.left = newLeft + "px";
+            }
+        }
+        go();
     }
     for (var i=0; i<buttons.length; i++) {
         buttons[i].onclick = function () {
            var myIndex = parseInt(this.getAttribute("index"));
             var offset = -190*(myIndex-index);
-            animate(offset);
+            if (!animated) {
+                animate(offset);
+            }
             index = myIndex;
             showButton();
         }
+    }
+    function changePic(curindex) {
+        for (var i=0; i<pics.length; i++) {
+            pics[i].style.display = "none";
+            buttons[i].className = "";
+        }
+        pics[curindex].style.display = "block";
+        buttons[curindex].className = "on";
+    }
+    function autoPlay() {
+        if (++index >= pics.length) index = 0;
+        changePic(index);
+    }
+    timer = setInterval(autoPlay,2000);
+    container.onmouseover = function () {
+        clearInterval(timer);
+    }
+    container.onmouseout = function () {
+        timer = setInterval(autoPlay,2000);
     }
 
 }
