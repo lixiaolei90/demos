@@ -79,27 +79,29 @@ function slideshowb() {
         }
         go();
     }
-    // function changePic(index) {
-    //     if(index=2){
-    //         index == 0;
-    //     }else {
-    //         index++;
-    //     }
-    //         animate(-190);
-    //         showButton();
-    //
-    // }
-    // function autoPlay() {
-    //     if (++index >= pics.length) index = 0;
-    //     changePic(index);
-    // }
-    // timer = setInterval(autoPlay,2000);
-    // container.onmouseover = function () {
-    //     clearInterval(timer);
-    // }
-    // container.onmouseout = function () {
-    //     timer = setInterval(autoPlay,2000);
-    // }
+    function changePic() {
+        if(index==3){
+            index = 1;
+        }else {
+            index++;
+        }
+            animate(-190);
+            showButton();
+
+    }
+    function autoPlay() {
+
+        changePic();
+        // autoPlay();
+        // debugger;
+    }
+    timer = setInterval(autoPlay,2000);
+    container.onmouseover = function () {
+        clearInterval(timer);
+    }
+    container.onmouseout = function () {
+        timer = setInterval(autoPlay,2000);
+    }
 
 
 
@@ -119,7 +121,7 @@ function slideshowb() {
 
             index = myIndex;
             showButton();
-            debugger;
+
         }
     }
 
