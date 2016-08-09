@@ -37,6 +37,8 @@ function showListwrap() {
         }
     }
 }
+
+
 function slideshowb() {
     var container = document.getElementById("b_container");
     var list = document.getElementById("b_list");
@@ -56,12 +58,6 @@ function slideshowb() {
     }
     function animate(offset) {
         var newLeft = parseInt(list.style.left) + offset;
-        // if (newLeft > -190) {
-        //     list.style.left = -570 + "px";
-        // }
-        // if (newLeft < -570) {
-        //     list.style.left = -190 + "px";
-        // }
         var time = 700;
         var interval = 10;
         var speed = offset/(time/interval);
@@ -73,40 +69,67 @@ function slideshowb() {
             }else {
                 animated = false;
                 list.style.left = newLeft + "px";
+                if (newLeft > -190) {
+                    list.style.left = -570 + "px";
+                }
+                if (newLeft < -570) {
+                    list.style.left = -190 + "px";
+                }
             }
         }
         go();
     }
+    // function changePic(index) {
+    //     if(index=2){
+    //         index == 0;
+    //     }else {
+    //         index++;
+    //     }
+    //         animate(-190);
+    //         showButton();
+    //
+    // }
+    // function autoPlay() {
+    //     if (++index >= pics.length) index = 0;
+    //     changePic(index);
+    // }
+    // timer = setInterval(autoPlay,2000);
+    // container.onmouseover = function () {
+    //     clearInterval(timer);
+    // }
+    // container.onmouseout = function () {
+    //     timer = setInterval(autoPlay,2000);
+    // }
+
+
+
+
     for (var i=0; i<buttons.length; i++) {
         buttons[i].onclick = function () {
+            // if (animated) {
+            //     return;
+            // }
+            // if (this.className == "on") {
+            //     return;
+            // }
             var myIndex = parseInt(this.getAttribute("index"));
             var offset = -190*(myIndex-index);
-            if (!animated) {
-                animate(offset);
-            }
+
+            animate(offset);
+
             index = myIndex;
             showButton();
+            debugger;
         }
     }
-    function changePic(curindex) {
-        for (var i=0; i<pics.length; i++) {
-            pics[i].style.display = "none";
-            buttons[i].className = "";
-        }
-        pics[curindex].style.display = "block";
-        buttons[curindex].className = "on";
-    }
-    function autoPlay() {
-        if (++index >= pics.length) index = 0;
-        changePic(index);
-    }
-    timer = setInterval(autoPlay,2000);
-    container.onmouseover = function () {
-        clearInterval(timer);
-    }
-    container.onmouseout = function () {
-        timer = setInterval(autoPlay,2000);
-    }
+
+
+
+
+
+
+
+
 
 }
 function slideshowa() {
@@ -114,7 +137,7 @@ function slideshowa() {
     var list = document.getElementById("a_list");
     var pics = list.getElementsByTagName("a");
     var buttons = document.getElementById("a_button").getElementsByTagName("span");
-    var index = 1;
+    var index = 0;
     var animated = false;
     var timer = null;
     function showButton() {
@@ -124,16 +147,16 @@ function slideshowa() {
                 break;
             }
         }
-        buttons[index-1].className = "on";
+        buttons[index].className = "on";
     }
     function animate(offset) {
         var newLeft = parseInt(list.style.left) + offset;
-        // if (newLeft > -190) {
-        //     list.style.left = -570 + "px";
-        // }
-        // if (newLeft < -570) {
-        //     list.style.left = -190 + "px";
-        // }
+        if (newLeft > -190) {
+            list.style.left = -570 + "px";
+        }
+        if (newLeft < -570) {
+            list.style.left = -190 + "px";
+        }
         var time = 700;
         var interval = 10;
         var speed = offset/(time/interval);
@@ -149,6 +172,10 @@ function slideshowa() {
         }
         go();
     }
+
+
+
+
     for (var i=0; i<buttons.length; i++) {
         buttons[i].onclick = function () {
             var myIndex = parseInt(this.getAttribute("index"));
@@ -172,13 +199,13 @@ function slideshowa() {
         if (++index >= pics.length) index = 0;
         changePic(index);
     }
-    timer = setInterval(autoPlay,2000);
-    container.onmouseover = function () {
-        clearInterval(timer);
-    }
-    container.onmouseout = function () {
-        timer = setInterval(autoPlay,2000);
-    }
+    // timer = setInterval(autoPlay,2000);
+    // container.onmouseover = function () {
+    //     clearInterval(timer);
+    // }
+    // container.onmouseout = function () {
+    //     timer = setInterval(autoPlay,2000);
+    // }
 
 }
 

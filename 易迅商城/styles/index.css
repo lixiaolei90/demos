@@ -46,11 +46,22 @@
 }
 #b_list {
 	position: absolute;
-	width: 570px;
+	width: 950px;
 	height: 400px;
 	z-index: 1;
 }
 #b_list img {
+	float: left;
+	width: 190px;
+	height: 400px;
+}
+#a_list {
+	position: absolute;
+	width: 570px;
+	height: 400px;
+	z-index: 1;
+}
+#a_list img {
 	float: left;
 	width: 190px;
 	height: 400px;
@@ -70,6 +81,9 @@
 	margin-right: 5px;
 }
 #b_button span.on {
+	background-color: red;
+}
+#a_button span.on {
 	background-color: red;
 }
 .m_list1 .up li {
