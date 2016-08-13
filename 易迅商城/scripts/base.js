@@ -84,6 +84,9 @@ function slideshowb() {
     }
 
     function changePic() {
+        if (animated) {
+            return;
+        }
         if (index == 3) {
             index = 1;
         } else {
@@ -170,6 +173,9 @@ function slideshowb() {
             go ();
         }
         function changePic () {
+            if (animated) {
+                return;
+            }
             if (index==3) {
                 index =1;
             }else {
@@ -183,6 +189,7 @@ function slideshowb() {
             clearInterval(timer);
         }
         container.onmouseout = function () {
+
             timer = setInterval (changePic,2000);
         }
         for (var i = 0; i<buttons.length; i++) {
