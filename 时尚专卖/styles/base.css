@@ -1,0 +1,60 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+html {
+	font-family: sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+	margin: 0;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+img {
+	border-style: none;
+}
+button,
+input,
+select,
+textarea {
+	font: inherit; /* 1 */
+	margin: 0; /* 2 */
+}
+input { /* 1 */
+	overflow: visible;
+}
+select { /* 1 */
+	text-transform: none;
+}
+.w1180 {
+	width: 1180px;
+	margin: 0 auto;
+}
+/*header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
