@@ -1,0 +1,232 @@
+@charset "utf-8";
+@font-face {
+	font-family: "zzgf-h12";
+	src: url("h12.tff");
+}
+@font-face {
+	font-family: "zzgf-h3";
+	src: url("h3.tff");
+}
+@font-face {
+	font-family: "zzgf-p";
+	src: url("p.tff");
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+html {
+	font-family: "zzgf-p", "microsoft yahei", sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+	outline-style: none;
+	border-style: none;
+}
+button,
+input,
+select,
+textarea {
+	font: inherit; /* 1 */
+	margin: 0; /* 2 */
+}
+input { /* 1 */
+	overflow: visible;
+	border: none;
+	padding: 0;
+	margin: 0;
+	outline-style: none;
+}
+select { /* 1 */
+	text-transform: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+ul {
+	list-style: none;
+
+}
+.cf:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: '';
+	clear: both;
+	height:0;
+}
+*.cf {
+	zoom: 1;
+}/* IE 6/7浏览器(触发hasLayout)*/
+
+/*     normalize.css  end   */
+
+.w1180 {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+/*  header begin */
+.hd-logo h1 {
+	display: inline-block;
+	margin-right: 135px;
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: "zzgf-h12";
+}
+.hd-logo select {
+	/*width: 36px;*/
+	padding-right:15px;
+	border: solid 1px #000;
+	font:  10px "zzgf-p";
+	background: url(../images/arrow.png) no-repeat right;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+.hd-logo-info {
+	display: inline-block;
+	margin-left: 680px;
+	font-weight: 200;
+}
+.bag {
+	margin-left: 35px;
+	padding-left: 25px;
+	background: url(../images/bag.png) no-repeat left;
+}
+.hd-nav {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 17px;
+}
+.hd-nav ul {
+	display: inline-block;
+}
+.hd-nav li {
+	display: inline-block;
+	margin-right: 58px;
+	font-size: 15px;
+	letter-spacing: .5px;
+}
+.hd-nav input {
+	width: 110px;
+	padding-bottom: 8px;
+	font-size: 12px;
+	border-bottom: 2px solid #e5e5e5;
+}
+.hd-nav span {
+	position: absolute;
+	left: 1152px;
+	top: 5px;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	background: url("../images/search.png") no-repeat right;
+}
+/*  header end */
+
+/*  body begin  */
+.bd-nav {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  body end  */
+
+/*  footer begin  */
+#footer {
+	margin-top: 163px;
+	border-top: 1px solid #e5e5e5;
+}
+.ft-guide {
+	position: relative;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 0;
+	-webkit-text-size-adjust:none;
+}
+.ft-guide dl {
+	display: inline-block;
+	margin-top: 55px;
+	margin-right: 170px;
+	vertical-align: top;
+}
+.ft-guide .ft-guide-q {
+	margin-left: 70px;
+}
+.ft-guide dt {
+	margin-bottom: 52px;
+	font: bolder 14px "zzgf-h12";
+}
+.ft-guide dt.dt-h {
+	margin-bottom: 20px;
+}
+.ft-guide dd {
+	margin-bottom: 28px;
+	font:12px "zzgf-p";
+}
+.ft-guide dd.tweeter {
+	padding-left: 20px;
+	background: url("../images/t.png") no-repeat left;
+}
+.ft-guide dd a {
+	font:bolder 12px "zzgf-h12";
+}
+.ft-guide-d {
+	position: absolute;
+	left: 600px;
+	top: 180px;
+	width: 280px;
+	font: 12px/30px "zzgf-p";
+}
+.ft-guide-d a {
+	padding-right: 22px;
+}
+.ft-copyright {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ft-copyright span {
+	font: 12px "zzgf-h3";
+}
+.ft-copyright a {
+	margin-left: 300px;
+	font: bolder 14px "zzgf-h12";
+}
+.ft-copyright ul {
+	display: inline-block;
+	float: right;
+}
+.ft-copyright li {
+	display: inline-block;
+	margin-left: 40px;
+	font: bold 12px "zzgf-h3";
+	cursor: pointer;
+}
+/*  footer end  */
+
+
+
+
+
+
+
