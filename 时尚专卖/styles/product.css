@@ -70,6 +70,9 @@ ul {
 	width: 1180px;
 	margin: 0 auto;
 }
+.red {
+	color: #f14a58;
+}
 
 /*  header begin */
 .hd-logo h1 {
@@ -132,7 +135,31 @@ ul {
 
 /*  body begin  */
 .bd-nav {
-	
+	height: 64px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	display: table-cell;
+	vertical-align: middle;
+}
+.bd-nav ul {
+
+}
+.bd-nav li {
+	display: inline-block;
+	vertical-align: middle;
+	width: 190px;
+	text-align: left;
+	border: 1px solid red;
+}
+.bd-nav h2 {
+	font: 17px "zzgf-h12";
+}
+.bd-nav h2.red {
+	margin-top: 10px;
+}
+.bd-nav span {
+	font: 10px "zzgf-p";
+
 }
 
 
