@@ -149,7 +149,7 @@ ul {
 	vertical-align: middle;
 	width: 190px;
 	text-align: left;
-	border: 1px solid red;
+	background: url("../images/arrow.png") no-repeat 150px;
 }
 .bd-nav h2 {
 	font: 17px "zzgf-h12";
@@ -159,30 +159,87 @@ ul {
 }
 .bd-nav span {
 	font: 10px "zzgf-p";
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bd-t_banner {
+	margin-top: 60px;
+}
+.bd-t_banner li{
+	display: inline-block;
+	margin-right: 48px;
+	text-align: center;
+}
+.bd-t_banner h3 {
+	margin-top: 49px;
+	margin-bottom: 19px;
+	font: bolder 14px "zzgf-h3","microsoft yahei", "sans-serif";
+}
+.bd-t_banner span {
+	font: 12px "zzgf-p","microsoft yahei", "sans-serif";
+}
+.bd-t_banner span.new {
+	font-style: italic;
+	font-size: 10px;
+	font-weight: lighter;
+}
+.bd-m_banner {
+	margin-top: 85px;
+}
+.bd-m_banner h2 {
+	text-align: center;;
+	margin-bottom: 28px;
+	font: 25px "zzgf-h12";
+}
+.bd-m_banner h2 em {
+	font-style: normal;
+	color: #f14a58;
+}
+.bd-m_banner span {
+	display: block;
+	text-align: center;
+	font: lighter 15px "zzgf-p";
+}
+.bd-m_banner li {
+	display: inline-block;
+	margin-top: 80px;
+	margin-right: 50px;
+	vertical-align: top;
+	text-align: center;
+}
+.bd-m_banner h3 {
+	margin-top: 50px;
+	margin-bottom: 15px;
+	width: 240px;
+	font: 14px/24px "zzgf-h3";
+}
+.bd-m_banner li span {
+	display: inline;
+	margin-right: 10px;
+	font: 12px "zzgf-p";
+}
+.bd-m_banner span.new {
+	color: #979797;
+	font-style: italic;
+}
+.bd-more {
+	margin-top: 125px;
+	margin-bottom: 185px;
+	text-align: center;
+}
+.bd-more a {
+	padding: 25px 105px;
+	border: 1px solid #e5e5e5;
+	font-size: 20px;
+}
+.bd-b_banner {
+	display: inline-block;
+}
 /*  body end  */
 
 /*  footer begin  */
 #footer {
-	margin-top: 163px;
+	margin-top: 56px;
 	border-top: 1px solid #e5e5e5;
+
 }
 .ft-guide {
 	position: relative;
@@ -198,7 +255,7 @@ ul {
 	vertical-align: top;
 }
 .ft-guide .ft-guide-q {
-	margin-left: 70px;
+	margin-left: 80px;
 }
 .ft-guide dt {
 	margin-bottom: 52px;

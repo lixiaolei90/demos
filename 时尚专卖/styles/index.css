@@ -104,6 +104,9 @@ ul {
 	margin-top: 20px;
 	margin-bottom: 17px;
 }
+.hd-nav .women {
+	background-color: red;
+}
 .hd-nav ul {
 	display: inline-block;
 }
