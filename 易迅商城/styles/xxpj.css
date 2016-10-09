@@ -237,7 +237,7 @@ body {
     margin-left: 22px;
 }
 .m_comment {
-    margin-left: 23px;
+    margin-left: 20px;
     margin-top: 15px;
 }
 .m_comment .c_nav {
@@ -492,7 +492,7 @@ body {
     margin-top: 9px;
 }
 .user_counsel {
-    height: 143px;
+    height: 155px;
     background-color: #fff;
 }
 .user_counsel dt {
